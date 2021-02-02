@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "COCOGOOSE";
-	src: url("Cocogoose Pro-trial.ttf") format("truetype");
+	src: url("./fonts/Cocogoose-trial.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -19,6 +19,36 @@ body {
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
+.nav-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-menu svg {
+  height: 2.8em;
+  width: 2em;
+  fill: #545454;
+}
+
+.festival-headline p {
+	margin-bottom: 0;
+}
+
+.main-header {
+	background-image: url(../img/bg-geometry.png);
+}
+
+.header-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main-content {
+	background-color: #22252c;
+	background-image: url(../img/bg-criss-cross-blue.png);
+	height: 600px;
+}
+
 .cocogoose {
   font-family: "COCOGOOSE", Helvetica, Arial, sans-serif;
 }
@@ -27,8 +57,12 @@ body {
   color: #ec5242;
 }
 
+.clr-grey {
+	color: #707070;
+}
+
 .clr-dark-grey {
-	color: #444444;
+	color: #595959;
 }
 
 .fw-100 {
@@ -51,34 +85,22 @@ body {
   font-weight: 700;
 }
 
-.fs-bold {
-  font-weight: bold;
+.fs-largest {
+  font-size: 34px;
 }
 
-.nav-menu {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.nav-menu svg {
-  height: 2.8em;
-  width: 2em;
-  fill: #545454;
-}
-
-.festival-headline h4 {
+.fs-large {
   font-size: 24px;
 }
 
-.festival-headline h1 {
-  font-size: 34px;
-  text-transform: uppercase;
-}
-
-.festival-headline div {
-	border: 2px solid #fff;
-}
-
-.festival-headline p {
+.fs-medium {
 	font-size: 12px;
+}
+
+.fs-medium-2 {
+	font-size: 15px;
+}
+
+.border-white {
+	border: 3px solid #fff;
 }
