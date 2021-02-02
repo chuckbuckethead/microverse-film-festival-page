@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "COCOGOOSE";
+	src: url("Cocogoose Pro-trial.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto !important;
+  background-color: #f9f9f9 !important;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.cocogoose {
+  font-family: "COCOGOOSE", Helvetica, Arial, sans-serif;
+}
+
+.clr-red {
+  color: #ec5242;
+}
+
+.clr-dark-grey {
+	color: #444444;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fs-bold {
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-menu svg {
+  height: 2.8em;
+  width: 2em;
+  fill: #545454;
+}
+
+.festival-headline h4 {
+  font-size: 24px;
+}
+
+.festival-headline h1 {
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.festival-headline div {
+	border: 2px solid #fff;
+}
+
+.festival-headline p {
+	font-size: 12px;
+}
