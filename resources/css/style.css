@@ -46,23 +46,57 @@ body {
 .main-content {
 	background-color: #22252c;
 	background-image: url(../img/bg-criss-cross-blue.png);
-	height: 600px;
+}
+
+.main-program {
+	width: 90%;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+
+.main-program-title-text {
+	text-align: center;
+}
+
+.main-program-title-border {
+	width: 12%;
+	height: 1px;
+	margin: auto;
+	margin-top: 1em;
+	background-color: #ec5242;
+}
+
+.main-program-activities {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2em;
+}
+
+.main-program-activity {
+	margin: 0.375em 0;
+	height: 116px;
+	width: 100%;
+	background-color: goldenrod;
 }
 
 .cocogoose {
   font-family: "COCOGOOSE", Helvetica, Arial, sans-serif;
 }
 
-.clr-red {
+.red {
   color: #ec5242;
 }
 
-.clr-grey {
+.grey {
 	color: #707070;
 }
 
-.clr-dark-grey {
+.dark-grey {
 	color: #595959;
+}
+
+.white {
+	color: #fff;
 }
 
 .fw-100 {
@@ -93,12 +127,16 @@ body {
   font-size: 24px;
 }
 
-.fs-medium {
-	font-size: 12px;
+.fs-medium-lg {
+	font-size: 20px;
 }
 
-.fs-medium-2 {
+.fs-medium {
 	font-size: 15px;
+}
+
+.fs-small {
+	font-size: 12px;
 }
 
 .border-white {
