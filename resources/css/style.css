@@ -15,7 +15,7 @@
 
 body {
   margin: 0 auto !important;
-  background-color: #white !important;
+  background-color: #f9f9f9 !important;
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
@@ -135,7 +135,13 @@ body {
 .featured-films-more {
 	border: 2px solid #e4e4e4;
 	border-radius: 3px;
-	padding: 1em;
+	margin-bottom: 3em;
+	padding: 0.8em 1em;
+}
+
+.featured-films-more--arrow {
+	width: 15px;
+	height: 10px;
 }
 
 .featured-film-synpsis {
