@@ -15,7 +15,7 @@
 
 body {
   margin: 0 auto !important;
-  background-color: #f9f9f9 !important;
+  background-color: #white !important;
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
@@ -94,8 +94,52 @@ body {
 .featured-films {
 	width: 90%;
   margin: 0 auto;
-  padding: 2em 0;
-	height: 600px;
+  padding-top: 2em;
+}
+
+.featured-films-section {
+	display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+}
+
+.featured-film {
+	display: flex;
+	margin-bottom: 3.125em;
+}
+
+.featured-film-img-container {
+	padding-right: 1em;
+}
+
+.featured-film-img {
+	width: 138px;
+}
+
+.featured-film-detail p {
+  margin-bottom: 0;
+}
+
+.film-title-bottom-border {
+  width: 10%;
+  height: 1px;
+	margin-top: 0.6em;
+	margin-left: 2px;
+  background-color: #d3d3d3;
+}
+
+.featured-films-remainder {
+	display: none;
+}
+
+.featured-films-more {
+	border: 2px solid #e4e4e4;
+	border-radius: 3px;
+	padding: 1em;
+}
+
+.featured-film-synpsis {
+	margin-top: 2em;
 }
 
 .cocogoose {
@@ -168,6 +212,10 @@ body {
 
 .fs-small {
   font-size: 12px;
+}
+
+.ft-italic {
+	font-style: italic;
 }
 
 .border-white {
