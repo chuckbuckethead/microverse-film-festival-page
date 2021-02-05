@@ -179,12 +179,57 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .topbar-social {
+    height: 25px;
+    background-color: #3e3e3e;
+  }
+
+  .topbar-container {
+    padding: 1em;
+  }
+
+  .topbar-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .topbar-logo {
+    height: 50px;
+  }
+
+  .topbar-nav {
+    padding-top: 8px;
+  }
+
+  .topbar-nav-item {
+    color: rgb(102, 102, 102);
+    padding: 1em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .topbar-nav-item:hover {
+    text-decoration: none;
+    color: #ff4f38;
+  }
+
   .nav-menu {
     display: none;
   }
 
   .header-container {
     width: 60%;
+    margin-top: 160px;
   }
 
   .festival-headline-homepage {
@@ -421,6 +466,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .topbar {
+    display: none;
+  }
+
   .festival-bottom-border {
     display: none;
   }
