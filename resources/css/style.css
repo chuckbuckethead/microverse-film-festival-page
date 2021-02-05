@@ -143,7 +143,7 @@ body {
   margin: 0 auto;
 }
 
-.midldle-section {
+.middle-section {
   width: 90%;
   margin: 0 auto;
   padding: 2em 0;
@@ -279,16 +279,10 @@ body {
 	margin-top: 1em;
 }
 
-.past-winners {
-	width: 90%;
-  margin: 0 auto;
-  padding-top: 2em;
-}
-
 .past-winners-section {
 	display: flex;
   flex-direction: column;
-  margin: 2em 0;
+  margin-top: 2em;
 }
 
 .past-winner-container {
@@ -315,6 +309,41 @@ body {
 	text-align: center;
 }
 
-.partners-containers {
-  height: 300px;
+.partners-section {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.partners-row--top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.partners-row--bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mozilla-logo {
+  height: 26px;
+}
+
+.google-logo {
+  width: 100px;
+  height: 35px;
+}
+
+.naver-logo {
+  width: 124px;
+  height: 24px;
+}
+
+.daumkakao-logo {
+  height: 22px;
+}
+
+.airbnb-logo {
+  height: 40px;
 }
