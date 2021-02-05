@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Canvas Pattern</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="40" height="40" style="border-radius: 50%"></canvas>
+    <script type="text/javascript">
+      var myCanvas = document.getElementById("myCanvas");
+      		var drawingContext = myCanvas.getContext("2d");
+
+      var color1 = "#fff", color2 = "#ec523d";
+      var numberOfStripes = 100;
+      for (var i = 0; i < numberOfStripes*2; i++){
+        var thickness = 300 / numberOfStripes;
+        drawingContext.beginPath();
+        drawingContext.strokeStyle = i % 2?color1:color2;
+        drawingContext.lineWidth =thickness;
+        drawingContext.lineCap = 'round';
+
+        drawingContext.moveTo(i*thickness + thickness/2 - 300,0);
+        drawingContext.lineTo(0 + i*thickness+thickness/2,300);
+        drawingContext.stroke();
+      }
+    </script>
+  </body>
+</html>
