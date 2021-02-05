@@ -4,7 +4,7 @@
 
 > Capstone project for the HTML & CSS3 Module
 
-![screenshot](./resources/app_screenshot.png)
+![screenshot](./resources/screenshot.png)
 
 A mobile-first webpage for a fictional film festival.
 
