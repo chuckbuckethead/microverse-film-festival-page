@@ -298,6 +298,77 @@ body {
     font-size: 15px;
   }
 
+  .step-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #e4e4e4;
+    border-radius: 25px;
+    font-size: 15px;
+  }
+
+  .step-wrapper {
+    display: flex;
+    margin-right: 1em;
+  }
+
+  .tickets-content table {
+    margin-bottom: 2em;
+  }
+
+  .tickets-table-container {
+    background-image: url(../img/bg-red-blue-stripes.png);
+    height: 300px;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tickets-table {
+    height: 95%;
+    width: 95%;
+  }
+
+  .tickets-divide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .middle-section--tickets {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+
+  .middle-section-title {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #ff4f38;
+  }
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ff4f38;
+  }
+
+  .middle-section-title--lunch {
+    margin: 0 auto;
+    width: 40%;
+  }
+
   .main-program-activities {
     display: flex;
     flex-direction: row;
