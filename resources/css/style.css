@@ -178,18 +178,6 @@ body {
   background-color: #d3d3d3;
 }
 
-.featured-films-more {
-	border: 2px solid #e4e4e4;
-	border-radius: 3px;
-	margin-bottom: 3em;
-	padding: 0.8em 1em;
-}
-
-.featured-films-more--arrow {
-	width: 15px;
-	height: 10px;
-}
-
 .featured-film-synpsis {
 	margin-top: 2em;
 }
@@ -400,7 +388,13 @@ body {
     justify-content: space-around;
   }
 
-  .footer {
+  .footer--about {
+    display: flex;
+    justify-content: center;
+    padding: 3em 1em;
+  }
+
+  .footer--homepage {
     display: flex;
     justify-content: center;
     padding: 3em 1em;
@@ -450,11 +444,19 @@ body {
   	margin-bottom: 1em;
   }
 
-  .footer {
+  .partners-container--homepage {
+    display: none;
+  }
+
+  .footer--about {
     background-color: #fff;
     display: flex;
     justify-content: center;
     padding: 2em 1em;
+  }
+
+  .footer--homepage {
+    display: none;
   }
 
   .footer-legal {
@@ -523,6 +525,13 @@ body {
 
   .hidden-film {
   	display: none;
+  }
+
+  .featured-films-more {
+  	border: 2px solid #e4e4e4;
+  	border-radius: 3px;
+  	margin-bottom: 3em;
+  	padding: 0.8em 1em;
   }
 
   .partners-section {
