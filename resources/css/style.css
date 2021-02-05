@@ -149,41 +149,6 @@ body {
   padding: 2em 0;
 }
 
-.title-bottom-border {
-  width: 12%;
-  height: 1px;
-  margin: auto;
-  margin-top: 1em;
-  background-color: #ff4f38;
-}
-
-.main-program-activities {
-  display: flex;
-  flex-direction: column;
-  margin: 2em 0;
-}
-
-.main-program-activity {
-  width: 100%;
-  margin: 0.375em 0;
-  display: flex;
-	padding-top: 1em;
-	padding-bottom: 1em;
-  align-items: center;
-  justify-content: space-between;
-  background-image: url(../img/bg-main-program-activity.png);
-}
-
-.main-program-activity-text {
-  margin: 0;
-	padding-right: 8px;
-}
-
-.main-program-activity-img {
-  height: 40px;
-  margin: 1em 0 1em 1em;
-}
-
 .main-program-join {
 	padding: 1em;
 	margin: 0 auto;
@@ -197,27 +162,8 @@ body {
   padding-top: 2em;
 }
 
-.featured-films-section {
-	display: flex;
-  flex-direction: column;
-  margin: 2em 0;
-}
-
-.featured-film {
-	display: flex;
-	margin-bottom: 3.125em;
-}
-
 .featured-film-img-container {
 	padding-right: 1em;
-}
-
-.featured-film-img {
-	width: 138px;
-}
-
-.featured-film-detail p {
-  margin-bottom: 0;
 }
 
 .film-title-bottom-border {
@@ -226,10 +172,6 @@ body {
 	margin-top: 0.6em;
 	margin-left: 2px;
   background-color: #d3d3d3;
-}
-
-.featured-films-remainder {
-	display: none;
 }
 
 .featured-films-more {
@@ -248,11 +190,299 @@ body {
 	margin-top: 2em;
 }
 
-.iff-logo-container {
-	margin-top: 2em;
-	margin-bottom: 1em;
-	padding: 1em;
-	border: 1px solid #e4e4e4;
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .header-container {
+    width: 60%;
+  }
+
+  .festival-headline-homepage {
+    width: 90%;
+  }
+
+  .festival-headline-homepage h1 {
+    font-size: 60px;
+  }
+
+  .festival-headline-homepage h4 {
+    font-size: 48px;
+  }
+
+  .festival-headline-homepage p {
+    margin-bottom: 0px;
+  }
+
+  .festival-date {
+    font-size: 32px;
+  }
+
+  .festival-location {
+    font-size: 20px;
+  }
+
+  .festival-headline h4 {
+    display: none;
+  }
+
+  .festival-headline h1 {
+    font-size: 48px;
+  }
+
+  .festival-bottom-border {
+    display: block;
+    width: 3%;
+    height: 2px;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #ff4f38;
+  }
+
+  .title-bottom-border {
+    width: 3%;
+    height: 1px;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #ff4f38;
+  }
+
+  .festival-description {
+    margin: 2em 0;
+  }
+
+  .festival-contact {
+    font-size: 15px;
+  }
+
+  .about-container {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .about-logo {
+    font-size: 15px;
+  }
+
+  .main-program-activities {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0;
+  }
+
+  .main-program-activity {
+    margin: 0 0.375em;
+    display: flex;
+  	padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg-main-program-activity.png);
+  }
+
+  .main-program-activity-text {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .main-program-activity-img {
+    width: 40px;
+  }
+
+  .main-program-join {
+    width: 20%;
+  }
+
+  .middle-section-title-text {
+    font-size: 24px;
+  }
+
+  .featured-films-text {
+    font-size: 24px;
+  }
+
+  .featured-films-section {
+  	display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    margin: 3em auto;
+  }
+
+  .featured-film {
+  	display: flex;
+    max-width: 40%;
+  	margin-bottom: 3.125em;
+  }
+
+  .feature-film-title {
+    font-size: 18px;
+  }
+
+  .featured-film-director {
+    font-size: 15px !important;
+  }
+
+  .featured-film-img {
+  	width: 160px;
+  }
+
+  .featured-film-detail p {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+
+  .hidden-film {
+  	display: flex;
+  }
+
+  .past-winners-container {
+    margin: 1em auto;
+    width: 80%;
+  }
+
+  .past-winners-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+  }
+
+  .past-winner-container {
+  	margin: 0 auto;
+  }
+
+  .past-winner-container--first {
+    margin-right: 1em;
+  }
+
+  .past-winner-container--second {
+    margin-left: 1em;
+  }
+
+  .partners-container {
+    display: none;
+  }
+
+  .footer {
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    padding: 3em 1em;
+  }
+
+  .footer-legal {
+    margin-left: 1em;
+    color: #fff;
+  }
+
+  .footer-legal p {
+    color: #fff !important;
+  }
+
+  .iff-logo-container {
+  	margin-top: 2em;
+  	margin-bottom: 1em;
+    padding: 1em;
+  	border: 1px solid #e4e4e4;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .festival-bottom-border {
+    display: none;
+  }
+
+  .festival-description {
+    margin: 1em 0;
+  }
+
+  .past-winners-section {
+  	display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+
+  .past-winner-container {
+  	margin: 0 auto;
+  	margin-bottom: 1em;
+  }
+
+  .footer {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 2em 1em;
+  }
+
+  .footer-legal {
+    margin-left: 1em;
+  }
+
+  .iff-logo-container {
+  	margin-top: 2em;
+  	margin-bottom: 1em;
+  	border: 1px solid #e4e4e4;
+  }
+
+  .title-bottom-border {
+    width: 12%;
+    height: 1px;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #ff4f38;
+  }
+
+  .main-program-activities {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+  }
+
+  .main-program-activity {
+    width: 100%;
+    margin: 0.375em 0;
+    display: flex;
+  	padding-top: 1em;
+  	padding-bottom: 1em;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/bg-main-program-activity.png);
+  }
+
+  .main-program-activity-text {
+    margin: 0;
+  	padding-right: 8px;
+  }
+
+  .main-program-activity-img {
+    height: 40px;
+    margin: 1em 0 1em 1em;
+  }
+
+  .featured-films-section {
+  	display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+  }
+
+  .featured-film {
+  	display: flex;
+  	margin-bottom: 3.125em;
+  }
+
+  .featured-film-img {
+  	width: 138px;
+  }
+
+  .featured-film-detail p {
+    margin-bottom: 0;
+  }
+
+  .hidden-film {
+  	display: none;
+  }
 }
 
 .iff-logo {
@@ -262,9 +492,10 @@ body {
   margin-right: auto;
 }
 
-.about-container {
-	border-top: 2px solid #f9f9f9;
-	border-bottom: 2px solid #f9f9f9;
+.about-divide {
+  background-color: #f9f9f9;
+  height: 2px;
+  width: 100%;
 }
 
 .about-bottom-border {
@@ -277,17 +508,6 @@ body {
 
 .about-logo {
 	margin-top: 1em;
-}
-
-.past-winners-section {
-	display: flex;
-  flex-direction: column;
-  margin-top: 2em;
-}
-
-.past-winner-container {
-	margin: 0 auto;
-	margin-bottom: 1em;
 }
 
 .past-winner-img {
@@ -345,5 +565,13 @@ body {
 }
 
 .airbnb-logo {
+  height: 40px;
+}
+
+.footer-logo {
+  margin-right: 1em;
+}
+
+.iff-logo--footer {
   height: 40px;
 }
