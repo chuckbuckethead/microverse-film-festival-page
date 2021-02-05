@@ -342,6 +342,10 @@ body {
   	display: flex;
   }
 
+  .featured-films-more {
+    display: none;
+  }
+
   .past-winners-container {
     margin: 1em auto;
     width: 80%;
