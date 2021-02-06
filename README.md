@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# IFF: Internal Film Festival
+# IFF: International Film Festival
 
 > Capstone project for the HTML & CSS3 Module
 
-![screenshot](./resources/screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 A mobile-first webpage for a fictional film festival.
 
