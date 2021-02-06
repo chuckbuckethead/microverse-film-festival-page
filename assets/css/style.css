@@ -187,9 +187,49 @@ body {
     z-index: 10;
   }
 
-  .topbar-social {
-    height: 25px;
+  .topbar-interactive {
+    padding: 0.5em 0;
     background-color: #3e3e3e;
+  }
+
+  .topbar-interactive-wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 60%;
+    justify-content: flex-end;
+  }
+
+  .topbar-social {
+    margin-right: 0.5em;
+  }
+
+  .topbar-languages {
+    margin-left: 0.5em;
+  }
+
+  .topbar-social-list {
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  .topbar-social-list-item {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  .topbar-social-list-item a {
+    color: inherit;
+  }
+
+  .topbar-social-list-item a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .social-share {
+    width: 15px;
+    height: 15px;
+    box-sizing: content-box;
   }
 
   .topbar-container {
