@@ -1,0 +1,804 @@
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("./fonts/Cocogoose-trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cocogoose {
+  font-family: "COCOGOOSE", Helvetica, Arial, sans-serif;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.grey {
+  color: #707070;
+}
+
+.dark-grey {
+  color: #595959;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #333437;
+}
+
+.bg-criss-cross {
+  background-image: url(../img/bg-criss-cross-blue.png);
+}
+
+.bg-grey {
+  background-color: #f9f9f9;
+}
+
+.bg-dark-grey {
+  background-color: #414246;
+}
+
+.bg-light-black {
+  background-color: #2e2e2e;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-red {
+  background: rgb(238, 82, 60);
+}
+
+.border-white {
+  border: 3px solid #fff;
+}
+
+.border-grey {
+  border: 2px solid #f6f6f6;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fs-largest {
+  font-size: 34px;
+}
+
+.fs-large {
+  font-size: 24px;
+}
+
+.fs-medium-lg {
+  font-size: 20px;
+}
+
+.fs-medium {
+  font-size: 15px;
+}
+
+.fs-small {
+  font-size: 12px;
+}
+
+.ft-italic {
+  font-style: italic;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-menu svg {
+  height: 2.8em;
+  width: 2em;
+  fill: #545454;
+}
+
+.festival-headline p {
+  margin-bottom: 0;
+}
+
+.main-header {
+  background-image: url(../img/bg-geometry.png);
+}
+
+.header-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.middle-section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.main-program-join {
+  padding: 1em;
+  margin: 0 auto;
+  width: 60%;
+  background-color: #ff4f38;
+}
+
+.featured-films {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.featured-film-img-container {
+  padding-right: 1em;
+}
+
+.film-title-bottom-border {
+  width: 10%;
+  height: 1px;
+  margin-top: 0.6em;
+  margin-left: 2px;
+  background-color: #d3d3d3;
+}
+
+.featured-film-synpsis {
+  margin-top: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .topbar-interactive {
+    padding: 0.5em 0;
+    background-color: #3e3e3e;
+  }
+
+  .topbar-interactive-wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 60%;
+    justify-content: flex-end;
+  }
+
+  .topbar-social {
+    margin-right: 0.5em;
+  }
+
+  .topbar-languages {
+    margin-left: 0.5em;
+  }
+
+  .topbar-social-list {
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  .topbar-social-list-item {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  .topbar-social-list-item a {
+    color: inherit;
+  }
+
+  .topbar-social-list-item a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .social-share {
+    width: 15px;
+    height: 15px;
+    box-sizing: content-box;
+  }
+
+  .topbar-container {
+    padding: 1em;
+  }
+
+  .topbar-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .topbar-logo {
+    height: 50px;
+  }
+
+  .topbar-nav {
+    padding-top: 8px;
+  }
+
+  .topbar-nav-item {
+    color: rgb(102, 102, 102);
+    padding: 1em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .topbar-nav-item:hover {
+    text-decoration: none;
+    color: #ff4f38;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .header-container {
+    width: 60%;
+    margin-top: 160px;
+  }
+
+  .festival-headline-homepage {
+    width: 90%;
+  }
+
+  .festival-headline-homepage h1 {
+    font-size: 60px;
+  }
+
+  .festival-headline-homepage h4 {
+    font-size: 48px;
+  }
+
+  .festival-headline-homepage p {
+    margin-bottom: 0;
+  }
+
+  .festival-date {
+    font-size: 32px;
+  }
+
+  .festival-location {
+    font-size: 20px;
+  }
+
+  .festival-headline h4 {
+    display: none;
+  }
+
+  .festival-headline h1 {
+    font-size: 48px;
+  }
+
+  .festival-bottom-border {
+    display: block;
+    width: 3%;
+    height: 2px;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #ff4f38;
+  }
+
+  .title-bottom-border {
+    width: 3%;
+    height: 1px;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #ff4f38;
+  }
+
+  .festival-description {
+    margin: 2em 0;
+  }
+
+  .festival-contact {
+    font-size: 15px;
+  }
+
+  .about-container {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .about-logo {
+    font-size: 15px;
+  }
+
+  .step-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #e4e4e4;
+    border-radius: 25px;
+    font-size: 15px;
+  }
+
+  .step-wrapper {
+    display: flex;
+    margin-right: 1em;
+  }
+
+  .tickets-content table {
+    margin-bottom: 2em;
+  }
+
+  .tickets-table-container {
+    background-image: url(../img/bg-red-blue-stripes.png);
+    height: 300px;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tickets-table {
+    height: 95%;
+    width: 95%;
+  }
+
+  .tickets-divide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .middle-section--tickets {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+
+  .middle-section-title {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #ff4f38;
+  }
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ff4f38;
+  }
+
+  .middle-section-title--lunch {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .main-program-activities {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0;
+  }
+
+  .main-program-activity {
+    margin: 0 0.375em;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg-main-program-activity.png);
+  }
+
+  .main-program-activity-text {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .main-program-activity-img {
+    width: 40px;
+  }
+
+  .main-program-join {
+    width: 20%;
+  }
+
+  .middle-section-title-text {
+    font-size: 24px;
+  }
+
+  .featured-films-text {
+    font-size: 24px;
+  }
+
+  .featured-films-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    margin: 3em auto;
+  }
+
+  .featured-film {
+    display: flex;
+    max-width: 40%;
+    margin-bottom: 3.125em;
+  }
+
+  .feature-film-title {
+    font-size: 18px;
+  }
+
+  .featured-film-director {
+    font-size: 15px;
+  }
+
+  .featured-film-img {
+    width: 160px;
+  }
+
+  .featured-film-detail p {
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .hidden-film {
+    display: flex;
+  }
+
+  .featured-films-more {
+    display: none;
+  }
+
+  .past-winners-container {
+    margin: 1em auto;
+    width: 80%;
+  }
+
+  .past-winners-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+  }
+
+  .past-winner-container {
+    margin: 0 auto;
+  }
+
+  .past-winner-container--first {
+    margin-right: 1em;
+  }
+
+  .past-winner-container--second {
+    margin-left: 1em;
+  }
+
+  .partners-container--about {
+    display: none;
+  }
+
+  .partners-container--homepage {
+    display: block;
+  }
+
+  .partners-section {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partners-section svg {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .partners-row--top {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .partners-row--bottom {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer--about {
+    display: flex;
+    justify-content: center;
+    padding: 3em 1em;
+  }
+
+  .footer--homepage {
+    display: flex;
+    justify-content: center;
+    padding: 3em 1em;
+  }
+
+  .footer-legal--about {
+    margin-left: 1em;
+  }
+
+  .footer-legal--about p {
+    color: #fff;
+  }
+
+  .footer-legal--homepage {
+    margin-left: 3em;
+  }
+
+  .footer-legal--homepage p {
+    color: #595959;
+  }
+
+  .iff-logo-container {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #e4e4e4;
+  }
+
+  .tickets-content {
+    margin-top: 130px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topbar {
+    display: none;
+  }
+
+  .festival-bottom-border {
+    display: none;
+  }
+
+  .festival-description {
+    margin: 1em 0;
+  }
+
+  .past-winners-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+
+  .past-winner-container {
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  .partners-container--homepage {
+    display: none;
+  }
+
+  .footer--about {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 2em 1em;
+  }
+
+  .footer--homepage {
+    display: none;
+  }
+
+  .footer-legal {
+    margin-left: 1em;
+  }
+
+  .iff-logo-container {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border: 1px solid #e4e4e4;
+  }
+
+  .title-bottom-border {
+    width: 12%;
+    height: 1px;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #ff4f38;
+  }
+
+  .main-program-activities {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+  }
+
+  .main-program-activity {
+    width: 100%;
+    margin: 0.375em 0;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/bg-main-program-activity.png);
+  }
+
+  .main-program-activity-text {
+    margin: 0;
+    padding-right: 8px;
+  }
+
+  .main-program-activity-img {
+    height: 40px;
+    margin: 1em 0 1em 1em;
+  }
+
+  .featured-films-section {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+  }
+
+  .featured-film {
+    display: flex;
+    margin-bottom: 3.125em;
+  }
+
+  .featured-film-img {
+    width: 138px;
+  }
+
+  .featured-film-detail p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .hidden-film {
+    display: none;
+  }
+
+  .featured-films-more {
+    border: 2px solid #e4e4e4;
+    border-radius: 3px;
+    margin-bottom: 3em;
+    padding: 0.8em 1em;
+  }
+
+  .partners-section {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .partners-row--top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+  }
+
+  .partners-row--bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .step-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #e4e4e4;
+    border-radius: 25px;
+    font-size: 15px;
+  }
+
+  .step-wrapper {
+    display: flex;
+    margin-right: 1em;
+  }
+}
+
+.iff-logo {
+  height: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-divide {
+  background-color: #f9f9f9;
+  height: 2px;
+  width: 100%;
+}
+
+.about-bottom-border {
+  width: 6%;
+  height: 1px;
+  margin: auto;
+  margin-top: 1em;
+  background-color: #ff4f38;
+}
+
+.about-logo {
+  margin-top: 1em;
+}
+
+.past-winner-img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.past-winner {
+  position: relative;
+}
+
+.past-winner-overlay {
+  z-index: 2;
+  left: 10%;
+  right: 10%;
+  bottom: 40%;
+  position: absolute;
+  text-align: center;
+}
+
+.mozilla-logo {
+  height: 26px;
+}
+
+.google-logo {
+  width: 100px;
+  height: 35px;
+}
+
+.naver-logo {
+  width: 124px;
+  height: 24px;
+}
+
+.ibm-logo {
+  height: 40px;
+}
+
+.airbnb-logo {
+  height: 40px;
+}
+
+.footer-logo {
+  margin-right: 1em;
+}
+
+.iff-logo--footer {
+  height: 40px;
+}
